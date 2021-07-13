@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width:100vw;
+    height:100vh;
+    background-color: #111;
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    background-image: linear-gradient(0deg, rgb(247, 247, 247) 23.8%, rgb(135, 220, 241) 92%);
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+.header{
+    margin-bottom: 30px;
+}
+.header h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.view{
+    margin-top: 25px;
+}
+.todoContainer, .completeContainer{
+    margin: 10px;
+}
+ul li{
+    list-style-type: none;
+}
+.deleteTask{
+    margin-left: 167px!important;
+}
+.IncompleteCheck{
+    margin-rightgg: 10px!important;
+}
